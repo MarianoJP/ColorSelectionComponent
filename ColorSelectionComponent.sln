@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorSelectionComponent", "ColorSelectionComponent\ColorSelectionComponent.csproj", "{CAF6AB6D-84F0-4E3F-983A-1B82E129D05A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF6AB6D-84F0-4E3F-983A-1B82E129D05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF6AB6D-84F0-4E3F-983A-1B82E129D05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF6AB6D-84F0-4E3F-983A-1B82E129D05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF6AB6D-84F0-4E3F-983A-1B82E129D05A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A19AB56-7CC8-4CAA-A1F6-CBD9E138FB02}
+	EndGlobalSection
+EndGlobal

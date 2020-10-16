@@ -1,0 +1,19 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+<ColorSelector InColor="@MyColor" ReturnedColor="ColorChange"></ColorSelector>
+@code
+{
+    private string MyColor { get; set; } = "#ff0000";
+
+    private void ColorChange(string e)
+    {
+        //add your code for handling the color change here below
+        MyColor = e;
+        StateHasChanged();
+    }
+}
